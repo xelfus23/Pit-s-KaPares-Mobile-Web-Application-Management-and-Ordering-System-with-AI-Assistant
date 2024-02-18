@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Pit’s KaPares Management System</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Pit’s KaPares Web-Based Management System</h1>
+    </header>
+    <main>
+        <section id="orders">
+            <h2>Manage Orders</h2>
+            <button onclick="getOrders()">Get Orders</button>
+            <div id="orderList"></div>
+        </section>
+        <section id="chat">
+            <h2>AI Chat Support</h2>
+            <div id="chatContainer"></div>
+            <input type="text" id="userInput" placeholder="Type your message...">
+            <button onclick="sendMessage()">Send</button>
+        </section>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>
